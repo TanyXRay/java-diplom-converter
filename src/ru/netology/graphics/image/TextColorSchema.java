@@ -1,5 +1,8 @@
 package ru.netology.graphics.image;
 
+/**
+ * Интерфейс цветовой схемы, который будем реализовывать
+ */
 public interface TextColorSchema {
-    char convert(int color);
+    String convert(int color);
 }
